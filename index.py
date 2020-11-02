@@ -1,8 +1,8 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def homepage():
-    return "Welcome to Pea's Pod"
+    return render_template('index.html')
