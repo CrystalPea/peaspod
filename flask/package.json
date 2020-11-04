@@ -1,0 +1,28 @@
+{
+  "name": "peaspod",
+  "version": "1.0.0",
+  "description": "a little gallery page swaying within the vast fields and meadows of the internet",
+  "main": "app/index.py",
+  "scripts": {
+    "test": "pytest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrystalPea/peaspod.git"
+  },
+  "keywords": [
+    "peaspod",
+    "gallery",
+    "comics",
+    "community"
+  ],
+  "author": "Iris Pea Tyczynska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrystalPea/peaspod/issues"
+  },
+  "homepage": "https://github.com/CrystalPea/peaspod#readme",
+  "dependencies": {
+    "govuk-frontend": "^3.9.1"
+  }
+}
