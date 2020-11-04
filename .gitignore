@@ -1,3 +1,15 @@
 venv/
 **/__pycache__/*
 **/node_modules/*
+
+*.pyc
+
+instance/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+*.egg-info/
